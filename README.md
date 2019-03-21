@@ -8,7 +8,7 @@ Note that when calling extract_data or extract_all_data, the first parameter is 
 
 Model:
 
-Given the task is image classification, the model proposed is a convolutional neural network (CNN). Below one can find my reasoning for the design decisions made.
+Given the task is image classification, convolutional neural network (CNN) is the most suitable type of model. Below one can find my reasoning for the design decisions made.
 
 Preprocessing: MURA images are either RGB or greyscale. Because of the nature of classification, converting them to greyscale is preferable. Images have different shapes, I chose to reshape all of them to (512,512), because 512 is the maximum value their shaes can take and so no information will be lost.
 
