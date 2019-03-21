@@ -1,4 +1,3 @@
-# Image-Classification-ProjectData set: 
 Link to the data set https://stanfordmlgroup.github.io/competitions/mura/
 MURA consists of images 7 types: hand, humerus, forearm, finger, wrist, elbow, shoulder. The purpose is to build a model that classifies images as negative ('healthy' - 0) or positive('abnormal' - 1). There is a 'train' set and a 'valid' set (used actually for testing) inside the archive. Note that the total data is very large (approx 3 GB)
 
